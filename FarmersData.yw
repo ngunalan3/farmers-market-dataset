@@ -1,0 +1,2095 @@
+#@begin Linear_OR #@desc Linear OpenRefine Workflow
+#@param newColumnName:2Saturday
+#@param expression:value.toDate()
+#@param newColumnName:S2Sat
+#@param newColumnName:S2Sat3
+#@param col-name:S2Sat
+#@param newColumnName:S2Wed
+#@param newColumnName:Season1Day1Time1
+#@param newColumnName:time1_trial
+#@param col-name:Season3Time_4_1
+#@param newColumnName:S2Fri2
+#@param newColumnName:1Wednesday
+#@param removeOriginalColumn:True
+#@param newColumnName:Monday
+#@param col-name:S3Sat
+#@param newColumnName:S1Thursday
+#@param col-name:Season3Time_1_2
+#@param col-name:S2Thu
+#@param expression:value.toNumber()
+#@param col-name:Season1Time_3
+#@param col-name:1EndDate
+#@param separator:"[a-z]\:"
+#@param col-name:y
+#@param col-name:Season3Time_4_2
+#@param newColumnName:3Tuesday
+#@param col-name:Season1Time_5_1
+#@param oldColumnName:Season4Date_1
+#@param col-name:1Wednesday
+#@param newColumnName:S2Wed2
+#@param newColumnName:3Saturday
+#@param oldColumnName:Tuesday
+#@param col-name:Season1Tuesday
+#@param oldColumnName:Season1Wednesday
+#@param newColumnName:2Friday
+#@param col-name:1Tuesday
+#@param col-name:Season2Time_7_2
+#@param col-name:S3Wed
+#@param col-name:Season3Time
+#@param col-name:Season2Time_6_2
+#@param col-name:Season1Time_4
+#@param newColumnName:S3Thu2
+#@param col-name:Season4Time_1_1
+#@param col-name:S3Tue1
+#@param oldColumnName:Season1Thursday
+#@param oldColumnName:time1_trial_1
+#@param newColumnName:3Sunday
+#@param newColumnName:2Thursday
+#@param col-name:Season4Time_2
+#@param newColumnName:2Monday
+#@param col-name:Season1Time_6_2
+#@param col-name:Season3Time_5_2
+#@param oldColumnName:Season1Saturday
+#@param newColumnName:1Saturday
+#@param col-name:Season3Time_6
+#@param col-name:Season1Time_7_1
+#@param newColumnName:Season1Day1
+#@param col-name:Season2EndDate
+#@param newColumnName:S2Thu2
+#@param oldColumnName:time1_trial_2
+#@param col-name:Season1Friday
+#@param col-name:Season1Time_2_1
+#@param newColumnName:S1Wednesday
+#@param newColumnName:1Sunday
+#@param newColumnName:S3Thu1
+#@param newColumnName:4Saturday
+#@param newColumnName:Season1Thursday
+#@param newColumnName:S2Sun1
+#@param newColumnName:2Wednesday
+#@param col-name:Season3EndDate
+#@param col-name:Season1Wednesday
+#@param col-name:S2Wed
+#@param newColumnName:S4Wed
+#@param col-name:Season2Time_5
+#@param col-name:Season1Time_7
+#@param newColumnName:se1sun
+#@param col-name:Season4Time_1_2
+#@param newColumnName:S1Sun
+#@param newColumnName:Sunday
+#@param index:22
+#@param newColumnName:S2Sun2
+#@param col-name:Season3Time_3
+#@param col-name:Season1Day2Time
+#@param newColumnName:Season1Trial
+#@param col-name:Season1Thursday
+#@param newColumnName:S2Fri1
+#@param col-name:Season2Time_3
+#@param newColumnName:time1_trial_2
+#@param newColumnName:Sea1Sat
+#@param newColumnName:4Wednesday
+#@param newColumnName:Season1Sunday
+#@param col-name:S3Fri1
+#@param newColumnName:1Thursday
+#@param oldColumnName:Season1Day1Time1
+#@param col-name:S1Sunday
+#@param col-name:Season2Time_4_2
+#@param col-name:Season2Time_7
+#@param newColumnName:S2Tue
+#@param col-name:Season4EndDate
+#@param col-name:Season1Trial
+#@param newColumnName:S2Tue1
+#@param col-name:S2Sun1
+#@param newColumnName:S2Mon
+#@param col-name:S2Fri
+#@param newColumnName:S1Sat
+#@param col-name:Season1Day1
+#@param newColumnName:Season1Tuesday
+#@param col-name:Season4Date
+#@param index:23
+#@param newColumnName:S3Sun2
+#@param expression:value.trim()
+#@param col-name:Season1Time
+#@param col-name:S2Sun
+#@param col-name:Season4Time_1
+#@param col-name:S3Fri
+#@param newColumnName:S1Friday
+#@param newColumnName:Tuesday
+#@param col-name:Season3Time_5
+#@param newColumnName:S2Fri3
+#@param separator:"[a-z]:"
+#@param col-name:Sunday
+#@param newColumnName:S4Thu
+#@param index:21
+#@param col-name:x
+#@param col-name:Season1Day1Time
+#@param newColumnName:Season1Wednesday
+#@param oldColumnName:Season1Sunday
+#@param col-name:Season1StartDate
+#@param newColumnName:S3Sun1
+#@param removeOriginalColumn:False
+#@param newColumnName:S2Fri
+#@param col-name:Season3Time_3_1
+#@param col-name:S1Monday
+#@param col-name:Season3StartDate
+#@param col-name:updateTime
+#@param col-name:Monday
+#@param newColumnName:S2Sat4
+#@param col-name:Season3Time_6_1
+#@param col-name:Season1Time_2
+#@param newColumnName:Season4StartDate
+#@param newColumnName:Season1Day1Time
+#@param newColumnName:3Monday
+#@param col-name:time1_trial
+#@param newColumnName:S1Thu
+#@param newColumnName:S2Sun4
+#@param col-name:Season2Time_2
+#@param newColumnName:sea1sun
+#@param col-name:S3Sun2
+#@param oldColumnName:Season1Time_2_1
+#@param col-name:Season2StartDate
+#@param newColumnName:Season1Saturday
+#@param newColumnName:S3Tue
+#@param newColumnName:S4Sat1
+#@param newColumnName:S2Wed1
+#@param col-name:Season1Time_1
+#@param newColumnName:S2Sun5
+#@param newColumnName:S3Fri1
+#@param newColumnName:S1Wed
+#@param col-name:Season1Time_5
+#@param col-name:S1Wednesday
+#@param col-name:Season2Time
+#@param oldColumnName:S2Mon
+#@param oldColumnName:S1Monday
+#@param oldColumnName:Season4Date_2
+#@param col-name:time1_trial_1
+#@param oldColumnName:Season1Time_2_2
+#@param col-name:S1Thursday
+#@param newColumnName:S2Sat1
+#@param newColumnName:S3Tue1
+#@param newColumnName:Season1Monday
+#@param index:20
+#@param newColumnName:S2Thu3
+#@param index:24
+#@param col-name:S1Saturday
+#@param col-name:Season2Time_7_1
+#@param newColumnName:S2Fri4
+#@param col-name:Season4StartDate
+#@param separator:";"
+#@param col-name:Season3Time_5_1
+#@param newColumnName:S3Mon
+#@param col-name:Season2Time_1_2
+#@param col-name:Tuesday
+#@param col-name:S3Sun1
+#@param col-name:Season2Time_4_1
+#@param expression:grel:value
+#@param newColumnName:3Wednesday
+#@param newColumnName:Season1Friday
+#@param col-name:Season2Time_3_1
+#@param col-name:S4Sat1
+#@param col-name:Season3Time_1_1
+#@param col-name:Season1Monday
+#@param newColumnName:1Friday
+#@param newColumnName:S1Sunday
+#@param newColumnName:S1Fri
+#@param col-name:Season1Time_5_2
+#@param newColumnName:S3Sun
+#@param newColumnName:S3Sat1
+#@param col-name:S3Wed1
+#@param newColumnName:S3Thu
+#@param col-name:Season1Time_3_2
+#@param col-name:Season1Time_4_1
+#@param oldColumnName:S3Mon
+#@param col-name:Season1Saturday
+#@param col-name:Season3Time_2_1
+#@param col-name:Season3Time_4
+#@param newColumnName:S3Sat3
+#@param newColumnName:1Tuesday
+#@param oldColumnName:S4Thu
+#@param col-name:Season3Time_3_2
+#@param newColumnName:S2Thu
+#@param col-name:Season1Time_6
+#@param col-name:Season2Time_1
+#@param newColumnName:2Sunday
+#@param col-name:Season2Time_5_2
+#@param col-name:Season1Time_7_2
+#@param newColumnName:Season1Day2
+#@param col-name:S4Sat
+#@param col-name:Season2Time_2_1
+#@param col-name:S3Sun
+#@param oldColumnName:S4Wed
+#@param newColumnName:1Monday
+#@param col-name:Season3Time_2_2
+#@param col-name:Season4Time_2_2
+#@param newColumnName:3Friday
+#@param col-name:Season3Time_1
+#@param newColumnName:S2Sat2
+#@param oldColumnName:Season1Friday
+#@param newColumnName:S1Tuesday
+#@param newColumnName:4Thursday
+#@param newColumnName:Season4EndDate
+#@param newColumnName:S1Monday
+#@param col-name:S1Friday
+#@param col-name:Season4Time
+#@param col-name:S1Tuesday
+#@param newColumnName:2Tuesday
+#@param col-name:Season2Time_6_1
+#@param col-name:Season2Time_6
+#@param col-name:Season2Time_3_2
+#@param newColumnName:S2Sun3
+#@param newColumnName:S2Sat5
+#@param oldColumnName:Season1Tuesday
+#@param col-name:Season2Time_5_1
+#@param newColumnName:S2Thu1
+#@param newColumnName:S3Sat
+#@param col-name:Season3Time_6_2
+#@param separator:"to"
+#@param col-name:Season4Time_2_1
+#@param col-name:S2Tue
+#@param newColumnName:S3Wed1
+#@param col-name:Season2Time_1_1
+#@param newColumnName:S1Fr
+#@param col-name:S3Tue
+#@param col-name:S3Thu
+#@param newColumnName:S4Sat
+#@param col-name:Season1Time_3_1
+#@param newColumnName:S3Fri
+#@param newColumnName:S3Sat2
+#@param col-name:Season1Time_4_2
+#@param col-name:Season3Time_2
+#@param newColumnName:3Thursday
+#@param newColumnName:S1Saturday
+#@param col-name:Season2Time_4
+#@param col-name:Season2Time_2_2
+#@param col-name:Season1EndDate
+#@param newColumnName:S2Sun
+#@param col-name:S3Thu1
+#@param col-name:Season1Time_6_1
+#@param newColumnName:Season1Day2Time
+#@param newColumnName:S3Wed
+#@param newColumnName:1EndDate
+#@param oldColumnName:Season1Monday
+#@in table0
+#@out table323
+#@begin core/text-transform0#@desc Text transform on cells in column Season1StartDate using expression value.toDate()
+#@param col-name:Season1StartDate
+#@param expression:value.toDate()
+#@in table0
+#@out table1
+#@end core/text-transform0
+#@begin core/text-transform1#@desc Text transform on cells in column Season1EndDate using expression value.toDate()
+#@param col-name:Season1EndDate
+#@param expression:value.toDate()
+#@in table1
+#@out table2
+#@end core/text-transform1
+#@begin core/text-transform2#@desc Text transform on cells in column Season1EndDate using expression value.toDate()
+#@param col-name:Season1EndDate
+#@param expression:value.toDate()
+#@in table2
+#@out table3
+#@end core/text-transform2
+#@begin core/text-transform3#@desc Text transform on cells in column Season1EndDate using expression value.toDate()
+#@param col-name:Season1EndDate
+#@param expression:value.toDate()
+#@in table3
+#@out table4
+#@end core/text-transform3
+#@begin core/text-transform4#@desc Text transform on cells in column Season2StartDate using expression value.toDate()
+#@param col-name:Season2StartDate
+#@param expression:value.toDate()
+#@in table4
+#@out table5
+#@end core/text-transform4
+#@begin core/text-transform5#@desc Text transform on cells in column Season2EndDate using expression value.toDate()
+#@param col-name:Season2EndDate
+#@param expression:value.toDate()
+#@in table5
+#@out table6
+#@end core/text-transform5
+#@begin core/text-transform6#@desc Text transform on cells in column Season3StartDate using expression value.toDate()
+#@param col-name:Season3StartDate
+#@param expression:value.toDate()
+#@in table6
+#@out table7
+#@end core/text-transform6
+#@begin core/text-transform7#@desc Text transform on cells in column Season3EndDate using expression value.toDate()
+#@param col-name:Season3EndDate
+#@param expression:value.toDate()
+#@in table7
+#@out table8
+#@end core/text-transform7
+#@begin core/text-transform8#@desc Text transform on cells in column Season4Date using expression value.toDate()
+#@param col-name:Season4Date
+#@param expression:value.toDate()
+#@in table8
+#@out table9
+#@end core/text-transform8
+#@begin core/text-transform9#@desc Text transform on cells in column Season1EndDate using expression value.toDate()
+#@param col-name:Season1EndDate
+#@param expression:value.toDate()
+#@in table9
+#@out table10
+#@end core/text-transform9
+#@begin core/column-addition0#@desc Create column 1EndDate at index 15 based on column Season1EndDate using expression grel:value
+#@param col-name:Season1EndDate
+#@param newColumnName:"1EndDate"
+#@in table10
+#@out table11
+#@end core/column-addition0
+#@begin core/text-transform10#@desc Text transform on cells in column 1EndDate using expression value.toDate()
+#@param col-name:1EndDate
+#@param expression:value.toDate()
+#@in table11
+#@out table12
+#@end core/text-transform10
+#@begin core/text-transform11#@desc Text transform on cells in column Season1EndDate using expression value.toDate()
+#@param col-name:Season1EndDate
+#@param expression:value.toDate()
+#@in table12
+#@out table13
+#@end core/text-transform11
+#@begin core/column-removal0#@desc Remove column 1EndDate
+#@param col-name:1EndDate
+#@in table13
+#@out table14
+#@end core/column-removal0
+#@begin core/mass-edit0#@desc Mass edit cells in column Season1EndDate
+#@param col-name:Season1EndDate
+#@in table14
+#@out table15
+#@end core/mass-edit0
+#@begin core/mass-edit1#@desc Mass edit cells in column Season1EndDate
+#@param col-name:Season1EndDate
+#@in table15
+#@out table16
+#@end core/mass-edit1
+#@begin core/mass-edit2#@desc Mass edit cells in column Season1EndDate
+#@param col-name:Season1EndDate
+#@in table16
+#@out table17
+#@end core/mass-edit2
+#@begin core/mass-edit3#@desc Mass edit cells in column Season1EndDate
+#@param col-name:Season1EndDate
+#@in table17
+#@out table18
+#@end core/mass-edit3
+#@begin core/mass-edit4#@desc Mass edit cells in column Season1EndDate
+#@param col-name:Season1EndDate
+#@in table18
+#@out table19
+#@end core/mass-edit4
+#@begin core/mass-edit5#@desc Mass edit cells in column Season1EndDate
+#@param col-name:Season1EndDate
+#@in table19
+#@out table20
+#@end core/mass-edit5
+#@begin core/mass-edit6#@desc Mass edit cells in column Season1EndDate
+#@param col-name:Season1EndDate
+#@in table20
+#@out table21
+#@end core/mass-edit6
+#@begin core/mass-edit7#@desc Mass edit cells in column Season1EndDate
+#@param col-name:Season1EndDate
+#@in table21
+#@out table22
+#@end core/mass-edit7
+#@begin core/text-transform12#@desc Text transform on cells in column Season1EndDate using expression value.trim()
+#@param col-name:Season1EndDate
+#@param expression:value.trim()
+#@in table22
+#@out table23
+#@end core/text-transform12
+#@begin core/text-transform13#@desc Text transform on cells in column Season1EndDate using expression value.toDate()
+#@param col-name:Season1EndDate
+#@param expression:value.toDate()
+#@in table23
+#@out table24
+#@end core/text-transform13
+#@begin core/text-transform14#@desc Text transform on cells in column Season2EndDate using expression value.trim()
+#@param col-name:Season2EndDate
+#@param expression:value.trim()
+#@in table24
+#@out table25
+#@end core/text-transform14
+#@begin core/text-transform15#@desc Text transform on cells in column Season2EndDate using expression value.toDate()
+#@param col-name:Season2EndDate
+#@param expression:value.toDate()
+#@in table25
+#@out table26
+#@end core/text-transform15
+#@begin core/text-transform16#@desc Text transform on cells in column Season3EndDate using expression value.trim()
+#@param col-name:Season3EndDate
+#@param expression:value.trim()
+#@in table26
+#@out table27
+#@end core/text-transform16
+#@begin core/text-transform17#@desc Text transform on cells in column Season3EndDate using expression value.toDate()
+#@param col-name:Season3EndDate
+#@param expression:value.toDate()
+#@in table27
+#@out table28
+#@end core/text-transform17
+#@begin core/text-transform18#@desc Text transform on cells in column Season4Date using expression value.trim()
+#@param col-name:Season4Date
+#@param expression:value.trim()
+#@in table28
+#@out table29
+#@end core/text-transform18
+#@begin core/text-transform19#@desc Text transform on cells in column Season4Date using expression value.trim()
+#@param col-name:Season4Date
+#@param expression:value.trim()
+#@in table29
+#@out table30
+#@end core/text-transform19
+#@begin core/text-transform20#@desc Text transform on cells in column Season4Date using expression value.toDate()
+#@param col-name:Season4Date
+#@param expression:value.toDate()
+#@in table30
+#@out table31
+#@end core/text-transform20
+#@begin core/column-split0#@desc Split column Season1Time by separator
+#@param col-name:Season1Time
+#@param separator:";"
+#@param removeOriginalColumn:False
+#@in table31
+#@out table32
+#@end core/column-split0
+#@begin core/column-split1#@desc Split column Season2Time by separator
+#@param col-name:Season2Time
+#@param separator:";"
+#@param removeOriginalColumn:False
+#@in table32
+#@out table33
+#@end core/column-split1
+#@begin core/column-split2#@desc Split column Season3Time by separator
+#@param col-name:Season3Time
+#@param separator:";"
+#@param removeOriginalColumn:False
+#@in table33
+#@out table34
+#@end core/column-split2
+#@begin core/column-split3#@desc Split column Season4Time by separator
+#@param col-name:Season4Time
+#@param separator:";"
+#@param removeOriginalColumn:False
+#@in table34
+#@out table35
+#@end core/column-split3
+#@begin core/text-transform21#@desc Text transform on cells in column x using expression value.toNumber()
+#@param col-name:x
+#@param expression:value.toNumber()
+#@in table35
+#@out table36
+#@end core/text-transform21
+#@begin core/text-transform22#@desc Text transform on cells in column y using expression value.toNumber()
+#@param col-name:y
+#@param expression:value.toNumber()
+#@in table36
+#@out table37
+#@end core/text-transform22
+#@begin core/text-transform23#@desc Text transform on cells in column updateTime using expression value.toDate()
+#@param col-name:updateTime
+#@param expression:value.toDate()
+#@in table37
+#@out table38
+#@end core/text-transform23
+#@begin core/column-addition1#@desc Create column Season1Trial at index 16 based on column Season1Time using expression grel:value
+#@param col-name:Season1Time
+#@param newColumnName:"Season1Trial"
+#@in table38
+#@out table39
+#@end core/column-addition1
+#@begin core/text-transform24#@desc Text transform on cells in column Season1Trial using expression value.trim()
+#@param col-name:Season1Trial
+#@param expression:value.trim()
+#@in table39
+#@out table40
+#@end core/text-transform24
+#@begin core/column-removal1#@desc Remove column Season1Trial
+#@param col-name:Season1Trial
+#@in table40
+#@out table41
+#@end core/column-removal1
+#@begin core/column-addition2#@desc Create column time1 trial at index 17 based on column Season1Time 1 using expression grel:value
+#@param col-name:Season1Time_1
+#@param newColumnName:"time1_trial"
+#@in table41
+#@out table42
+#@end core/column-addition2
+#@begin core/column-split4#@desc Split column time1 trial by separator
+#@param col-name:time1_trial
+#@param separator:"[a-z]:"
+#@param removeOriginalColumn:True
+#@in table42
+#@out table43
+#@end core/column-split4
+#@begin core/text-transform25#@desc Text transform on cells in column time1 trial 1 using expression grel:value
+#@param col-name:time1_trial_1
+#@param expression:grel:value
+#@in table43
+#@out table44
+#@end core/text-transform25
+#@begin core/column-addition3#@desc Create column Season1Friday at index 18 based on column time1 trial 1 using expression grel:value
+#@param col-name:time1_trial_1
+#@param newColumnName:"Season1Friday"
+#@in table44
+#@out table45
+#@end core/column-addition3
+#@begin core/column-removal2#@desc Remove column Season1Friday
+#@param col-name:Season1Friday
+#@in table45
+#@out table46
+#@end core/column-removal2
+#@begin core/column-rename0#@desc Rename column time1 trial 2 to Season1Friday
+#@param oldColumnName:time1_trial_2
+#@param newColumnName:Season1Friday
+#@in table46
+#@out table47
+#@end core/column-rename0
+#@begin core/column-rename1#@desc Rename column Season1Friday to time1 trial 2
+#@param oldColumnName:Season1Friday
+#@param newColumnName:time1_trial_2
+#@in table47
+#@out table48
+#@end core/column-rename1
+#@begin core/mass-edit8#@desc Mass edit cells in column time1 trial 1
+#@param col-name:time1_trial_1
+#@in table48
+#@out table49
+#@end core/mass-edit8
+#@begin core/mass-edit9#@desc Mass edit cells in column time1 trial 1
+#@param col-name:time1_trial_1
+#@in table49
+#@out table50
+#@end core/mass-edit9
+#@begin core/mass-edit10#@desc Mass edit cells in column time1 trial 1
+#@param col-name:time1_trial_1
+#@in table50
+#@out table51
+#@end core/mass-edit10
+#@begin core/mass-edit11#@desc Mass edit cells in column time1 trial 1
+#@param col-name:time1_trial_1
+#@in table51
+#@out table52
+#@end core/mass-edit11
+#@begin core/mass-edit12#@desc Mass edit cells in column time1 trial 1
+#@param col-name:time1_trial_1
+#@in table52
+#@out table53
+#@end core/mass-edit12
+#@begin core/mass-edit13#@desc Mass edit cells in column time1 trial 1
+#@param col-name:time1_trial_1
+#@in table53
+#@out table54
+#@end core/mass-edit13
+#@begin core/mass-edit14#@desc Mass edit cells in column time1 trial 1
+#@param col-name:time1_trial_1
+#@in table54
+#@out table55
+#@end core/mass-edit14
+#@begin core/column-rename2#@desc Rename column time1 trial 1 to Season1Day1Time1
+#@param oldColumnName:time1_trial_1
+#@param newColumnName:Season1Day1Time1
+#@in table55
+#@out table56
+#@end core/column-rename2
+#@begin core/column-rename3#@desc Rename column Season1Day1Time1 to Season1Day1
+#@param oldColumnName:Season1Day1Time1
+#@param newColumnName:Season1Day1
+#@in table56
+#@out table57
+#@end core/column-rename3
+#@begin core/column-rename4#@desc Rename column time1 trial 2 to Season1Day1Time1
+#@param oldColumnName:time1_trial_2
+#@param newColumnName:Season1Day1Time1
+#@in table57
+#@out table58
+#@end core/column-rename4
+#@begin core/column-rename5#@desc Rename column Season1Day1Time1 to Season1Day1Time
+#@param oldColumnName:Season1Day1Time1
+#@param newColumnName:Season1Day1Time
+#@in table58
+#@out table59
+#@end core/column-rename5
+#@begin core/column-split5#@desc Split column Season1Time 2 by separator
+#@param col-name:Season1Time_2
+#@param separator:"[a-z]\:"
+#@param removeOriginalColumn:False
+#@in table59
+#@out table60
+#@end core/column-split5
+#@begin core/mass-edit15#@desc Mass edit cells in column Season1Time 2 1
+#@param col-name:Season1Time_2_1
+#@in table60
+#@out table61
+#@end core/mass-edit15
+#@begin core/mass-edit16#@desc Mass edit cells in column Season1Time 2 1
+#@param col-name:Season1Time_2_1
+#@in table61
+#@out table62
+#@end core/mass-edit16
+#@begin core/mass-edit17#@desc Mass edit cells in column Season1Time 2 1
+#@param col-name:Season1Time_2_1
+#@in table62
+#@out table63
+#@end core/mass-edit17
+#@begin core/mass-edit18#@desc Mass edit cells in column Season1Time 2 1
+#@param col-name:Season1Time_2_1
+#@in table63
+#@out table64
+#@end core/mass-edit18
+#@begin core/mass-edit19#@desc Mass edit cells in column Season1Time 2 1
+#@param col-name:Season1Time_2_1
+#@in table64
+#@out table65
+#@end core/mass-edit19
+#@begin core/mass-edit20#@desc Mass edit cells in column Season1Time 2 1
+#@param col-name:Season1Time_2_1
+#@in table65
+#@out table66
+#@end core/mass-edit20
+#@begin core/mass-edit21#@desc Mass edit cells in column Season1Time 2 1
+#@param col-name:Season1Time_2_1
+#@in table66
+#@out table67
+#@end core/mass-edit21
+#@begin core/column-rename6#@desc Rename column Season1Time 2 1 to Season1Day2
+#@param oldColumnName:Season1Time_2_1
+#@param newColumnName:Season1Day2
+#@in table67
+#@out table68
+#@end core/column-rename6
+#@begin core/column-rename7#@desc Rename column Season1Time 2 2 to Season1Day2Time
+#@param oldColumnName:Season1Time_2_2
+#@param newColumnName:Season1Day2Time
+#@in table68
+#@out table69
+#@end core/column-rename7
+#@begin core/column-split6#@desc Split column Season1Time 3 by separator
+#@param col-name:Season1Time_3
+#@param separator:"[a-z]\:"
+#@param removeOriginalColumn:False
+#@in table69
+#@out table70
+#@end core/column-split6
+#@begin core/mass-edit22#@desc Mass edit cells in column Season1Time 3 1
+#@param col-name:Season1Time_3_1
+#@in table70
+#@out table71
+#@end core/mass-edit22
+#@begin core/column-split7#@desc Split column Season1Time 4 by separator
+#@param col-name:Season1Time_4
+#@param separator:"[a-z]\:"
+#@param removeOriginalColumn:False
+#@in table71
+#@out table72
+#@end core/column-split7
+#@begin core/mass-edit23#@desc Mass edit cells in column Season1Time 4 1
+#@param col-name:Season1Time_4_1
+#@in table72
+#@out table73
+#@end core/mass-edit23
+#@begin core/mass-edit24#@desc Mass edit cells in column Season1Time 4 1
+#@param col-name:Season1Time_4_1
+#@in table73
+#@out table74
+#@end core/mass-edit24
+#@begin core/mass-edit25#@desc Mass edit cells in column Season1Time 4 1
+#@param col-name:Season1Time_4_1
+#@in table74
+#@out table75
+#@end core/mass-edit25
+#@begin core/mass-edit26#@desc Mass edit cells in column Season1Time 4 1
+#@param col-name:Season1Time_4_1
+#@in table75
+#@out table76
+#@end core/mass-edit26
+#@begin core/column-split8#@desc Split column Season1Time 5 by separator
+#@param col-name:Season1Time_5
+#@param separator:"[a-z]\:"
+#@param removeOriginalColumn:False
+#@in table76
+#@out table77
+#@end core/column-split8
+#@begin core/mass-edit27#@desc Mass edit cells in column Season1Time 5 1
+#@param col-name:Season1Time_5_1
+#@in table77
+#@out table78
+#@end core/mass-edit27
+#@begin core/column-split9#@desc Split column Season1Time 6 by separator
+#@param col-name:Season1Time_6
+#@param separator:"[a-z]\:"
+#@param removeOriginalColumn:True
+#@in table78
+#@out table79
+#@end core/column-split9
+#@begin core/mass-edit28#@desc Mass edit cells in column Season1Time 6 1
+#@param col-name:Season1Time_6_1
+#@in table79
+#@out table80
+#@end core/mass-edit28
+#@begin core/mass-edit29#@desc Mass edit cells in column Season1Time 6 1
+#@param col-name:Season1Time_6_1
+#@in table80
+#@out table81
+#@end core/mass-edit29
+#@begin core/column-split10#@desc Split column Season1Time 7 by separator
+#@param col-name:Season1Time_7
+#@param separator:"[a-z]\:"
+#@param removeOriginalColumn:False
+#@in table81
+#@out table82
+#@end core/column-split10
+#@begin core/mass-edit30#@desc Mass edit cells in column Season1Time 7 1
+#@param col-name:Season1Time_7_1
+#@in table82
+#@out table83
+#@end core/mass-edit30
+#@begin core/mass-edit31#@desc Mass edit cells in column Season1Time 7 1
+#@param col-name:Season1Time_7_1
+#@in table83
+#@out table84
+#@end core/mass-edit31
+#@begin core/column-addition4#@desc Create column Season1Monday at index 18 based on column Season1Day1 using expression grel:value=Mon
+#@param col-name:Season1Day1
+#@param newColumnName:"Season1Monday"
+#@in table84
+#@out table85
+#@end core/column-addition4
+#@begin core/column-removal3#@desc Remove column Season1Monday
+#@param col-name:Season1Monday
+#@in table85
+#@out table86
+#@end core/column-removal3
+#@begin core/column-addition5#@desc Create column Monday at index 18 based on column Season1Day1 using expression grel:value
+#@param col-name:Season1Day1
+#@param newColumnName:"Monday"
+#@in table86
+#@out table87
+#@end core/column-addition5
+#@begin core/column-addition6#@desc Create column Season1Monday at index 20 based on column Season1Day1Time using expression grel:value
+#@param col-name:Season1Day1Time
+#@param newColumnName:"Season1Monday"
+#@in table87
+#@out table88
+#@end core/column-addition6
+#@begin core/column-removal4#@desc Remove column Monday
+#@param col-name:Monday
+#@in table88
+#@out table89
+#@end core/column-removal4
+#@begin core/column-addition7#@desc Create column Season1Tuesday at index 19 based on column Season1Day1Time using expression grel:value
+#@param col-name:Season1Day1Time
+#@param newColumnName:"Season1Tuesday"
+#@in table89
+#@out table90
+#@end core/column-addition7
+#@begin core/column-addition8#@desc Create column Season1Wednesday at index 19 based on column Season1Day1Time using expression grel:value
+#@param col-name:Season1Day1Time
+#@param newColumnName:"Season1Wednesday"
+#@in table90
+#@out table91
+#@end core/column-addition8
+#@begin core/column-addition9#@desc Create column Season1Thursday at index 19 based on column Season1Day1Time using expression grel:value
+#@param col-name:Season1Day1Time
+#@param newColumnName:"Season1Thursday"
+#@in table91
+#@out table92
+#@end core/column-addition9
+#@begin core/column-addition10#@desc Create column Season1Friday at index 19 based on column Season1Day1Time using expression grel:value
+#@param col-name:Season1Day1Time
+#@param newColumnName:"Season1Friday"
+#@in table92
+#@out table93
+#@end core/column-addition10
+#@begin core/column-addition11#@desc Create column Season1Saturday at index 19 based on column Season1Day1Time using expression grel:value
+#@param col-name:Season1Day1Time
+#@param newColumnName:"Season1Saturday"
+#@in table93
+#@out table94
+#@end core/column-addition11
+#@begin core/column-addition12#@desc Create column Season1Sunday at index 19 based on column Season1Day1Time using expression grel:value
+#@param col-name:Season1Day1Time
+#@param newColumnName:"Season1Sunday"
+#@in table94
+#@out table95
+#@end core/column-addition12
+#@begin core/column-move0#@desc Move column Season1Monday to position 24
+#@param col-name:Season1Monday
+#@param index:24
+#@in table95
+#@out table96
+#@end core/column-move0
+#@begin core/column-move1#@desc Move column Season1Monday to position 23
+#@param col-name:Season1Monday
+#@param index:23
+#@in table96
+#@out table97
+#@end core/column-move1
+#@begin core/column-move2#@desc Move column Season1Monday to position 22
+#@param col-name:Season1Monday
+#@param index:22
+#@in table97
+#@out table98
+#@end core/column-move2
+#@begin core/column-move3#@desc Move column Season1Monday to position 21
+#@param col-name:Season1Monday
+#@param index:21
+#@in table98
+#@out table99
+#@end core/column-move3
+#@begin core/column-move4#@desc Move column Season1Monday to position 20
+#@param col-name:Season1Monday
+#@param index:20
+#@in table99
+#@out table100
+#@end core/column-move4
+#@begin core/column-move5#@desc Move column Season1Saturday to position 22
+#@param col-name:Season1Saturday
+#@param index:22
+#@in table100
+#@out table101
+#@end core/column-move5
+#@begin core/column-move6#@desc Move column Season1Wednesday to position 23
+#@param col-name:Season1Wednesday
+#@param index:23
+#@in table101
+#@out table102
+#@end core/column-move6
+#@begin core/column-move7#@desc Move column Season1Tuesday to position 24
+#@param col-name:Season1Tuesday
+#@param index:24
+#@in table102
+#@out table103
+#@end core/column-move7
+#@begin core/column-move8#@desc Move column Season1Tuesday to position 23
+#@param col-name:Season1Tuesday
+#@param index:23
+#@in table103
+#@out table104
+#@end core/column-move8
+#@begin core/column-move9#@desc Move column Season1Tuesday to position 22
+#@param col-name:Season1Tuesday
+#@param index:22
+#@in table104
+#@out table105
+#@end core/column-move9
+#@begin core/column-move10#@desc Move column Season1Tuesday to position 21
+#@param col-name:Season1Tuesday
+#@param index:21
+#@in table105
+#@out table106
+#@end core/column-move10
+#@begin core/column-move11#@desc Move column Season1Wednesday to position 23
+#@param col-name:Season1Wednesday
+#@param index:23
+#@in table106
+#@out table107
+#@end core/column-move11
+#@begin core/column-move12#@desc Move column Season1Wednesday to position 22
+#@param col-name:Season1Wednesday
+#@param index:22
+#@in table107
+#@out table108
+#@end core/column-move12
+#@begin core/column-move13#@desc Move column Season1Thursday to position 24
+#@param col-name:Season1Thursday
+#@param index:24
+#@in table108
+#@out table109
+#@end core/column-move13
+#@begin core/column-move14#@desc Move column Season1Thursday to position 23
+#@param col-name:Season1Thursday
+#@param index:23
+#@in table109
+#@out table110
+#@end core/column-move14
+#@begin core/column-rename8#@desc Rename column Season1Sunday to S1Sunday
+#@param oldColumnName:Season1Sunday
+#@param newColumnName:S1Sunday
+#@in table110
+#@out table111
+#@end core/column-rename8
+#@begin core/column-rename9#@desc Rename column Season1Monday to S1Monday
+#@param oldColumnName:Season1Monday
+#@param newColumnName:S1Monday
+#@in table111
+#@out table112
+#@end core/column-rename9
+#@begin core/column-rename10#@desc Rename column Season1Tuesday to S1Tuesday
+#@param oldColumnName:Season1Tuesday
+#@param newColumnName:S1Tuesday
+#@in table112
+#@out table113
+#@end core/column-rename10
+#@begin core/column-rename11#@desc Rename column Season1Wednesday to S1Wednesday
+#@param oldColumnName:Season1Wednesday
+#@param newColumnName:S1Wednesday
+#@in table113
+#@out table114
+#@end core/column-rename11
+#@begin core/column-rename12#@desc Rename column Season1Thursday to S1Thursday
+#@param oldColumnName:Season1Thursday
+#@param newColumnName:S1Thursday
+#@in table114
+#@out table115
+#@end core/column-rename12
+#@begin core/column-rename13#@desc Rename column Season1Friday to S1Friday
+#@param oldColumnName:Season1Friday
+#@param newColumnName:S1Friday
+#@in table115
+#@out table116
+#@end core/column-rename13
+#@begin core/column-rename14#@desc Rename column Season1Saturday to S1Saturday
+#@param oldColumnName:Season1Saturday
+#@param newColumnName:S1Saturday
+#@in table116
+#@out table117
+#@end core/column-rename14
+#@begin core/column-addition13#@desc Create column Season1Sunday at index 29 based on column Season1Day2Time using expression grel:value
+#@param col-name:Season1Day2Time
+#@param newColumnName:"Season1Sunday"
+#@in table117
+#@out table118
+#@end core/column-addition13
+#@begin core/column-addition14#@desc Create column Season1Saturday at index 29 based on column Season1Day2Time using expression grel:value
+#@param col-name:Season1Day2Time
+#@param newColumnName:"Season1Saturday"
+#@in table118
+#@out table119
+#@end core/column-addition14
+#@begin core/column-addition15#@desc Create column Season1Friday at index 29 based on column Season1Day2Time using expression grel:value
+#@param col-name:Season1Day2Time
+#@param newColumnName:"Season1Friday"
+#@in table119
+#@out table120
+#@end core/column-addition15
+#@begin core/column-addition16#@desc Create column Season1Thursday at index 29 based on column Season1Day2Time using expression grel:value
+#@param col-name:Season1Day2Time
+#@param newColumnName:"Season1Thursday"
+#@in table120
+#@out table121
+#@end core/column-addition16
+#@begin core/column-addition17#@desc Create column Season1Wednesday at index 29 based on column Season1Day2Time using expression grel:value
+#@param col-name:Season1Day2Time
+#@param newColumnName:"Season1Wednesday"
+#@in table121
+#@out table122
+#@end core/column-addition17
+#@begin core/column-addition18#@desc Create column Season1Tuesday at index 29 based on column Season1Day2Time using expression grel:value
+#@param col-name:Season1Day2Time
+#@param newColumnName:"Season1Tuesday"
+#@in table122
+#@out table123
+#@end core/column-addition18
+#@begin core/text-transform26#@desc Text transform on cells in column S1Sunday using expression value.trim()
+#@param col-name:S1Sunday
+#@param expression:value.trim()
+#@in table123
+#@out table124
+#@end core/text-transform26
+#@begin core/text-transform27#@desc Text transform on cells in column S1Monday using expression value.trim()
+#@param col-name:S1Monday
+#@param expression:value.trim()
+#@in table124
+#@out table125
+#@end core/text-transform27
+#@begin core/text-transform28#@desc Text transform on cells in column S1Tuesday using expression value.trim()
+#@param col-name:S1Tuesday
+#@param expression:value.trim()
+#@in table125
+#@out table126
+#@end core/text-transform28
+#@begin core/text-transform29#@desc Text transform on cells in column S1Wednesday using expression value.trim()
+#@param col-name:S1Wednesday
+#@param expression:value.trim()
+#@in table126
+#@out table127
+#@end core/text-transform29
+#@begin core/text-transform30#@desc Text transform on cells in column S1Thursday using expression value.trim()
+#@param col-name:S1Thursday
+#@param expression:value.trim()
+#@in table127
+#@out table128
+#@end core/text-transform30
+#@begin core/text-transform31#@desc Text transform on cells in column S1Friday using expression value.trim()
+#@param col-name:S1Friday
+#@param expression:value.trim()
+#@in table128
+#@out table129
+#@end core/text-transform31
+#@begin core/text-transform32#@desc Text transform on cells in column S1Saturday using expression value.trim()
+#@param col-name:S1Saturday
+#@param expression:value.trim()
+#@in table129
+#@out table130
+#@end core/text-transform32
+#@begin core/column-addition19#@desc Create column S1Wed at index 38 based on column Season1Time 3 2 using expression grel:value
+#@param col-name:Season1Time_3_2
+#@param newColumnName:"S1Wed"
+#@in table130
+#@out table131
+#@end core/column-addition19
+#@begin core/column-addition20#@desc Create column S1Thu at index 42 based on column Season1Time 4 2 using expression grel:value
+#@param col-name:Season1Time_4_2
+#@param newColumnName:"S1Thu"
+#@in table131
+#@out table132
+#@end core/column-addition20
+#@begin core/column-addition21#@desc Create column S1Fri at index 42 based on column Season1Time 4 2 using expression grel:value
+#@param col-name:Season1Time_4_2
+#@param newColumnName:"S1Fri"
+#@in table132
+#@out table133
+#@end core/column-addition21
+#@begin core/column-addition22#@desc Create column S1Sat at index 42 based on column Season1Time 4 2 using expression grel:value
+#@param col-name:Season1Time_4_2
+#@param newColumnName:"S1Sat"
+#@in table133
+#@out table134
+#@end core/column-addition22
+#@begin core/column-addition23#@desc Create column S1Sun at index 42 based on column Season1Time 4 2 using expression grel:value
+#@param col-name:Season1Time_4_2
+#@param newColumnName:"S1Sun"
+#@in table134
+#@out table135
+#@end core/column-addition23
+#@begin core/column-addition24#@desc Create column S1Fr at index 49 based on column Season1Time 5 2 using expression grel:value
+#@param col-name:Season1Time_5_2
+#@param newColumnName:"S1Fr"
+#@in table135
+#@out table136
+#@end core/column-addition24
+#@begin core/column-addition25#@desc Create column Sea1Sat at index 52 based on column Season1Time 6 2 using expression grel:value
+#@param col-name:Season1Time_6_2
+#@param newColumnName:"Sea1Sat"
+#@in table136
+#@out table137
+#@end core/column-addition25
+#@begin core/column-addition26#@desc Create column sea1sun at index 52 based on column Season1Time 6 2 using expression grel:value
+#@param col-name:Season1Time_6_2
+#@param newColumnName:"sea1sun"
+#@in table137
+#@out table138
+#@end core/column-addition26
+#@begin core/column-addition27#@desc Create column se1sun at index 57 based on column Season1Time 7 2 using expression grel:value
+#@param col-name:Season1Time_7_2
+#@param newColumnName:"se1sun"
+#@in table138
+#@out table139
+#@end core/column-addition27
+#@begin core/column-addition28#@desc Create column Sunday at index 20 based on column S1Sunday using expression grel:cells['S1Sunday'].value+cells['Season1Sunday'].value+cells['S1Sun'].value+cells['Sea1Sun'].value+cells['Se1Sun'].value
+#@param col-name:S1Sunday
+#@param newColumnName:"Sunday"
+#@in table139
+#@out table140
+#@end core/column-addition28
+#@begin core/column-removal5#@desc Remove column Sunday
+#@param col-name:Sunday
+#@in table140
+#@out table141
+#@end core/column-removal5
+#@begin core/column-addition29#@desc Create column Tuesday at index 22 based on column S1Tuesday using expression grel:cells['S1Tuesday'].value + cells['Season1Tuesday'].value
+#@param col-name:S1Tuesday
+#@param newColumnName:"Tuesday"
+#@in table141
+#@out table142
+#@end core/column-addition29
+#@begin core/column-removal6#@desc Remove column Tuesday
+#@param col-name:Tuesday
+#@in table142
+#@out table143
+#@end core/column-removal6
+#@begin core/column-addition30#@desc Create column Tuesday at index 22 based on column S1Tuesday using expression grel:cells['S1Tuesday'].value.toString()+cells['Season1Tuesday'].value.toString()
+#@param col-name:S1Tuesday
+#@param newColumnName:"Tuesday"
+#@in table143
+#@out table144
+#@end core/column-addition30
+#@begin core/column-rename15#@desc Rename column S1Monday to 1Monday
+#@param oldColumnName:S1Monday
+#@param newColumnName:1Monday
+#@in table144
+#@out table145
+#@end core/column-rename15
+#@begin core/column-rename16#@desc Rename column Tuesday to 1Tuesday
+#@param oldColumnName:Tuesday
+#@param newColumnName:1Tuesday
+#@in table145
+#@out table146
+#@end core/column-rename16
+#@begin core/column-addition31#@desc Create column 1Sunday at index 20 based on column S1Sunday using expression grel:cells['S1Sunday'].value.toString()+cells['Season1Sunday'].value.toString()+cells['S1Sun'].value.toString()+cells['Sea1sun'].value.toString()+cells['se1sun'].value.toString()
+#@param col-name:S1Sunday
+#@param newColumnName:"1Sunday"
+#@in table146
+#@out table147
+#@end core/column-addition31
+#@begin core/column-addition32#@desc Create column 1Wednesday at index 25 based on column S1Wednesday using expression grel:cells['S1Wednesday'].value.toString()+cells['Season1Wednesday'].value.toString()+cells['S1Wed'].value.toString()
+#@param col-name:S1Wednesday
+#@param newColumnName:"1Wednesday"
+#@in table147
+#@out table148
+#@end core/column-addition32
+#@begin core/column-addition33#@desc Create column 1Thursday at index 27 based on column S1Thursday using expression grel:cells['S1Thursday'].value.toString()+cells['Season1Thurday'].value.toString()+cells['S1Thu'].value.toString()
+#@param col-name:S1Thursday
+#@param newColumnName:"1Thursday"
+#@in table148
+#@out table149
+#@end core/column-addition33
+#@begin core/column-addition34#@desc Create column 1Friday at index 29 based on column S1Friday using expression grel:cells['S1Friday'].value.toString()+cells['Season1Friday'].value.toString()+cells['S1Fri'].value.toString()+cells['S1Fr'].value.toString()
+#@param col-name:S1Friday
+#@param newColumnName:"1Friday"
+#@in table149
+#@out table150
+#@end core/column-addition34
+#@begin core/column-move15#@desc Move column 1Tuesday to position 22
+#@param col-name:1Tuesday
+#@param index:22
+#@in table150
+#@out table151
+#@end core/column-move15
+#@begin core/column-move16#@desc Move column 1Wednesday to position 24
+#@param col-name:1Wednesday
+#@param index:24
+#@in table151
+#@out table152
+#@end core/column-move16
+#@begin core/column-move17#@desc Move column 1Wednesday to position 23
+#@param col-name:1Wednesday
+#@param index:23
+#@in table152
+#@out table153
+#@end core/column-move17
+#@begin core/column-addition35#@desc Create column 1Saturday at index 31 based on column S1Saturday using expression grel:cells['S1Saturday'].value.toString()+cells['Season1Saturday'].value.toString()+cells['S1Sat'].value.toString()+cells['Sea1Sat'].value.toString()
+#@param col-name:S1Saturday
+#@param newColumnName:"1Saturday"
+#@in table153
+#@out table154
+#@end core/column-addition35
+#@begin core/column-split11#@desc Split column Season2Time 1 by separator
+#@param col-name:Season2Time_1
+#@param separator:"[a-z]\:"
+#@param removeOriginalColumn:False
+#@in table154
+#@out table155
+#@end core/column-split11
+#@begin core/mass-edit32#@desc Mass edit cells in column Season2Time 1 1
+#@param col-name:Season2Time_1_1
+#@in table155
+#@out table156
+#@end core/mass-edit32
+#@begin core/mass-edit33#@desc Mass edit cells in column Season2Time 1 1
+#@param col-name:Season2Time_1_1
+#@in table156
+#@out table157
+#@end core/mass-edit33
+#@begin core/mass-edit34#@desc Mass edit cells in column Season2Time 1 1
+#@param col-name:Season2Time_1_1
+#@in table157
+#@out table158
+#@end core/mass-edit34
+#@begin core/mass-edit35#@desc Mass edit cells in column Season2Time 1 1
+#@param col-name:Season2Time_1_1
+#@in table158
+#@out table159
+#@end core/mass-edit35
+#@begin core/mass-edit36#@desc Mass edit cells in column Season2Time 1 1
+#@param col-name:Season2Time_1_1
+#@in table159
+#@out table160
+#@end core/mass-edit36
+#@begin core/mass-edit37#@desc Mass edit cells in column Season2Time 1 1
+#@param col-name:Season2Time_1_1
+#@in table160
+#@out table161
+#@end core/mass-edit37
+#@begin core/column-split12#@desc Split column Season2Time 2 by separator
+#@param col-name:Season2Time_2
+#@param separator:"[a-z]\:"
+#@param removeOriginalColumn:False
+#@in table161
+#@out table162
+#@end core/column-split12
+#@begin core/column-split13#@desc Split column Season2Time 3 by separator
+#@param col-name:Season2Time_3
+#@param separator:"[a-z]\:"
+#@param removeOriginalColumn:False
+#@in table162
+#@out table163
+#@end core/column-split13
+#@begin core/column-split14#@desc Split column Season2Time 4 by separator
+#@param col-name:Season2Time_4
+#@param separator:"[a-z]\:"
+#@param removeOriginalColumn:True
+#@in table163
+#@out table164
+#@end core/column-split14
+#@begin core/column-split15#@desc Split column Season2Time 5 by separator
+#@param col-name:Season2Time_5
+#@param separator:"[a-z]\:"
+#@param removeOriginalColumn:True
+#@in table164
+#@out table165
+#@end core/column-split15
+#@begin core/column-split16#@desc Split column Season2Time 6 by separator
+#@param col-name:Season2Time_6
+#@param separator:"[a-z]\:"
+#@param removeOriginalColumn:True
+#@in table165
+#@out table166
+#@end core/column-split16
+#@begin core/column-split17#@desc Split column Season2Time 7 by separator
+#@param col-name:Season2Time_7
+#@param separator:"[a-z]\:"
+#@param removeOriginalColumn:True
+#@in table166
+#@out table167
+#@end core/column-split17
+#@begin core/mass-edit38#@desc Mass edit cells in column Season2Time 2 1
+#@param col-name:Season2Time_2_1
+#@in table167
+#@out table168
+#@end core/mass-edit38
+#@begin core/mass-edit39#@desc Mass edit cells in column Season2Time 2 1
+#@param col-name:Season2Time_2_1
+#@in table168
+#@out table169
+#@end core/mass-edit39
+#@begin core/mass-edit40#@desc Mass edit cells in column Season2Time 2 1
+#@param col-name:Season2Time_2_1
+#@in table169
+#@out table170
+#@end core/mass-edit40
+#@begin core/mass-edit41#@desc Mass edit cells in column Season2Time 3 1
+#@param col-name:Season2Time_3_1
+#@in table170
+#@out table171
+#@end core/mass-edit41
+#@begin core/mass-edit42#@desc Mass edit cells in column Season2Time 2 1
+#@param col-name:Season2Time_2_1
+#@in table171
+#@out table172
+#@end core/mass-edit42
+#@begin core/mass-edit43#@desc Mass edit cells in column Season2Time 3 1
+#@param col-name:Season2Time_3_1
+#@in table172
+#@out table173
+#@end core/mass-edit43
+#@begin core/mass-edit44#@desc Mass edit cells in column Season2Time 4 1
+#@param col-name:Season2Time_4_1
+#@in table173
+#@out table174
+#@end core/mass-edit44
+#@begin core/mass-edit45#@desc Mass edit cells in column Season2Time 2 1
+#@param col-name:Season2Time_2_1
+#@in table174
+#@out table175
+#@end core/mass-edit45
+#@begin core/mass-edit46#@desc Mass edit cells in column Season2Time 3 1
+#@param col-name:Season2Time_3_1
+#@in table175
+#@out table176
+#@end core/mass-edit46
+#@begin core/mass-edit47#@desc Mass edit cells in column Season2Time 2 1
+#@param col-name:Season2Time_2_1
+#@in table176
+#@out table177
+#@end core/mass-edit47
+#@begin core/mass-edit48#@desc Mass edit cells in column Season2Time 3 1
+#@param col-name:Season2Time_3_1
+#@in table177
+#@out table178
+#@end core/mass-edit48
+#@begin core/mass-edit49#@desc Mass edit cells in column Season2Time 4 1
+#@param col-name:Season2Time_4_1
+#@in table178
+#@out table179
+#@end core/mass-edit49
+#@begin core/mass-edit50#@desc Mass edit cells in column Season2Time 5 1
+#@param col-name:Season2Time_5_1
+#@in table179
+#@out table180
+#@end core/mass-edit50
+#@begin core/mass-edit51#@desc Mass edit cells in column Season2Time 3 1
+#@param col-name:Season2Time_3_1
+#@in table180
+#@out table181
+#@end core/mass-edit51
+#@begin core/mass-edit52#@desc Mass edit cells in column Season2Time 3 1
+#@param col-name:Season2Time_3_1
+#@in table181
+#@out table182
+#@end core/mass-edit52
+#@begin core/mass-edit53#@desc Mass edit cells in column Season2Time 4 1
+#@param col-name:Season2Time_4_1
+#@in table182
+#@out table183
+#@end core/mass-edit53
+#@begin core/mass-edit54#@desc Mass edit cells in column Season2Time 4 1
+#@param col-name:Season2Time_4_1
+#@in table183
+#@out table184
+#@end core/mass-edit54
+#@begin core/mass-edit55#@desc Mass edit cells in column Season2Time 5 1
+#@param col-name:Season2Time_5_1
+#@in table184
+#@out table185
+#@end core/mass-edit55
+#@begin core/mass-edit56#@desc Mass edit cells in column Season2Time 5 1
+#@param col-name:Season2Time_5_1
+#@in table185
+#@out table186
+#@end core/mass-edit56
+#@begin core/mass-edit57#@desc Mass edit cells in column Season2Time 6 1
+#@param col-name:Season2Time_6_1
+#@in table186
+#@out table187
+#@end core/mass-edit57
+#@begin core/mass-edit58#@desc Mass edit cells in column Season2Time 6 1
+#@param col-name:Season2Time_6_1
+#@in table187
+#@out table188
+#@end core/mass-edit58
+#@begin core/mass-edit59#@desc Mass edit cells in column Season2Time 2 1
+#@param col-name:Season2Time_2_1
+#@in table188
+#@out table189
+#@end core/mass-edit59
+#@begin core/mass-edit60#@desc Mass edit cells in column Season2Time 6 1
+#@param col-name:Season2Time_6_1
+#@in table189
+#@out table190
+#@end core/mass-edit60
+#@begin core/mass-edit61#@desc Mass edit cells in column Season2Time 7 1
+#@param col-name:Season2Time_7_1
+#@in table190
+#@out table191
+#@end core/mass-edit61
+#@begin core/column-addition36#@desc Create column S2Mon at index 28 based on column Season2Time 1 2 using expression grel:value
+#@param col-name:Season2Time_1_2
+#@param newColumnName:"S2Mon"
+#@in table191
+#@out table192
+#@end core/column-addition36
+#@begin core/column-addition37#@desc Create column S2Tue at index 28 based on column Season2Time 1 2 using expression grel:value
+#@param col-name:Season2Time_1_2
+#@param newColumnName:"S2Tue"
+#@in table192
+#@out table193
+#@end core/column-addition37
+#@begin core/column-addition38#@desc Create column S2Wed at index 28 based on column Season2Time 1 2 using expression grel:value
+#@param col-name:Season2Time_1_2
+#@param newColumnName:"S2Wed"
+#@in table193
+#@out table194
+#@end core/column-addition38
+#@begin core/column-addition39#@desc Create column S2Thu at index 28 based on column Season2Time 1 2 using expression grel:value
+#@param col-name:Season2Time_1_2
+#@param newColumnName:"S2Thu"
+#@in table194
+#@out table195
+#@end core/column-addition39
+#@begin core/column-addition40#@desc Create column S2Fri at index 28 based on column Season2Time 1 2 using expression grel:value
+#@param col-name:Season2Time_1_2
+#@param newColumnName:"S2Fri"
+#@in table195
+#@out table196
+#@end core/column-addition40
+#@begin core/column-addition41#@desc Create column S2Sat at index 28 based on column Season2Time 1 2 using expression grel:value
+#@param col-name:Season2Time_1_2
+#@param newColumnName:"S2Sat"
+#@in table196
+#@out table197
+#@end core/column-addition41
+#@begin core/column-addition42#@desc Create column S2Sun at index 28 based on column Season2Time 1 2 using expression grel:value
+#@param col-name:Season2Time_1_2
+#@param newColumnName:"S2Sun"
+#@in table197
+#@out table198
+#@end core/column-addition42
+#@begin core/column-addition43#@desc Create column S2Tue1 at index 38 based on column Season2Time 2 2 using expression grel:value
+#@param col-name:Season2Time_2_2
+#@param newColumnName:"S2Tue1"
+#@in table198
+#@out table199
+#@end core/column-addition43
+#@begin core/column-addition44#@desc Create column S2Wed1 at index 38 based on column Season2Time 2 2 using expression grel:value
+#@param col-name:Season2Time_2_2
+#@param newColumnName:"S2Wed1"
+#@in table199
+#@out table200
+#@end core/column-addition44
+#@begin core/column-addition45#@desc Create column S2Thu1 at index 38 based on column Season2Time 2 2 using expression grel:value
+#@param col-name:Season2Time_2_2
+#@param newColumnName:"S2Thu1"
+#@in table200
+#@out table201
+#@end core/column-addition45
+#@begin core/column-addition46#@desc Create column S2Fri1 at index 38 based on column Season2Time 2 2 using expression grel:value
+#@param col-name:Season2Time_2_2
+#@param newColumnName:"S2Fri1"
+#@in table201
+#@out table202
+#@end core/column-addition46
+#@begin core/column-addition47#@desc Create column S2Sat1 at index 38 based on column Season2Time 2 2 using expression grel:value
+#@param col-name:Season2Time_2_2
+#@param newColumnName:"S2Sat1"
+#@in table202
+#@out table203
+#@end core/column-addition47
+#@begin core/column-addition48#@desc Create column S2Sun1 at index 38 based on column Season2Time 2 2 using expression grel:value
+#@param col-name:Season2Time_2_2
+#@param newColumnName:"S2Sun1"
+#@in table203
+#@out table204
+#@end core/column-addition48
+#@begin core/column-addition49#@desc Create column S2Wed2 at index 47 based on column Season2Time 3 2 using expression grel:value
+#@param col-name:Season2Time_3_2
+#@param newColumnName:"S2Wed2"
+#@in table204
+#@out table205
+#@end core/column-addition49
+#@begin core/column-addition50#@desc Create column S2Thu2 at index 47 based on column Season2Time 3 2 using expression grel:value
+#@param col-name:Season2Time_3_2
+#@param newColumnName:"S2Thu2"
+#@in table205
+#@out table206
+#@end core/column-addition50
+#@begin core/column-addition51#@desc Create column S2Fri2 at index 47 based on column Season2Time 3 2 using expression grel:value
+#@param col-name:Season2Time_3_2
+#@param newColumnName:"S2Fri2"
+#@in table206
+#@out table207
+#@end core/column-addition51
+#@begin core/column-addition52#@desc Create column S2Sat2 at index 47 based on column Season2Time 3 2 using expression grel:value
+#@param col-name:Season2Time_3_2
+#@param newColumnName:"S2Sat2"
+#@in table207
+#@out table208
+#@end core/column-addition52
+#@begin core/column-addition53#@desc Create column S2Sun2 at index 47 based on column Season2Time 3 2 using expression grel:value
+#@param col-name:Season2Time_3_2
+#@param newColumnName:"S2Sun2"
+#@in table208
+#@out table209
+#@end core/column-addition53
+#@begin core/column-addition54#@desc Create column S2Sun3 at index 54 based on column Season2Time 4 2 using expression grel:value
+#@param col-name:Season2Time_4_2
+#@param newColumnName:"S2Sun3"
+#@in table209
+#@out table210
+#@end core/column-addition54
+#@begin core/column-addition55#@desc Create column S2Sat3 at index 54 based on column Season2Time 4 2 using expression grel:value
+#@param col-name:Season2Time_4_2
+#@param newColumnName:"S2Sat3"
+#@in table210
+#@out table211
+#@end core/column-addition55
+#@begin core/column-addition56#@desc Create column S2Fri3 at index 54 based on column Season2Time 4 2 using expression grel:value
+#@param col-name:Season2Time_4_2
+#@param newColumnName:"S2Fri3"
+#@in table211
+#@out table212
+#@end core/column-addition56
+#@begin core/column-addition57#@desc Create column S2Thu3 at index 54 based on column Season2Time 4 2 using expression grel:value
+#@param col-name:Season2Time_4_2
+#@param newColumnName:"S2Thu3"
+#@in table212
+#@out table213
+#@end core/column-addition57
+#@begin core/column-addition58#@desc Create column S2Sun4 at index 62 based on column Season2Time 6 2 using expression grel:value
+#@param col-name:Season2Time_6_2
+#@param newColumnName:"S2Sun4"
+#@in table213
+#@out table214
+#@end core/column-addition58
+#@begin core/column-addition59#@desc Create column S2Sat4 at index 60 based on column Season2Time 5 2 using expression grel:value
+#@param col-name:Season2Time_5_2
+#@param newColumnName:"S2Sat4"
+#@in table214
+#@out table215
+#@end core/column-addition59
+#@begin core/column-addition60#@desc Create column S2Fri4 at index 60 based on column Season2Time 5 2 using expression grel:value
+#@param col-name:Season2Time_5_2
+#@param newColumnName:"S2Fri4"
+#@in table215
+#@out table216
+#@end core/column-addition60
+#@begin core/column-addition61#@desc Create column S2Sat5 at index 64 based on column Season2Time 6 2 using expression grel:value
+#@param col-name:Season2Time_6_2
+#@param newColumnName:"S2Sat5"
+#@in table216
+#@out table217
+#@end core/column-addition61
+#@begin core/column-addition62#@desc Create column S2Sun5 at index 68 based on column Season2Time 7 2 using expression grel:value
+#@param col-name:Season2Time_7_2
+#@param newColumnName:"S2Sun5"
+#@in table217
+#@out table218
+#@end core/column-addition62
+#@begin core/column-addition63#@desc Create column 2Sunday at index 29 based on column S2Sun using expression grel:cells['S2Sun'].value.toString()+cells['S2Sun1'].value.toString()+cells['S2Sun2'].value.toString()+cells['S2Sun3'].value.toString()+cells['S2Sun4'].value.toString()+cells['S2Sun5'].value.toString()
+#@param col-name:S2Sun
+#@param newColumnName:"2Sunday"
+#@in table218
+#@out table219
+#@end core/column-addition63
+#@begin core/column-addition64#@desc Create column 2Saturday at index 31 based on column S2Sat using expression grel:cells['S2Sat'].value.toString()+cells['S2Sat1'].value.toString()+cells['S2Sat2'].value.toString()+cells['S2Sat3'].value.toString()+cells['S2Sat4'].value.toString()+cells['S2Sat5'].value.toString()
+#@param col-name:S2Sat
+#@param newColumnName:"2Saturday"
+#@in table219
+#@out table220
+#@end core/column-addition64
+#@begin core/column-addition65#@desc Create column 2Friday at index 33 based on column S2Fri using expression grel:cells['S2Fri'].value.toString()+cells['S2Fri1'].value.toString()+cells['S2Fri2'].value.toString()+cells['S2Fri3'].value.toString()+cells['S2Fri4'].value.toString()
+#@param col-name:S2Fri
+#@param newColumnName:"2Friday"
+#@in table220
+#@out table221
+#@end core/column-addition65
+#@begin core/column-addition66#@desc Create column 2Thursday at index 35 based on column S2Thu using expression grel:cells['S2Thu'].value.toString()+cells['S2Thu1'].value.toString()+cells['S2Thu2'].value.toString()+cells['S2Thu3'].value.toString()
+#@param col-name:S2Thu
+#@param newColumnName:"2Thursday"
+#@in table221
+#@out table222
+#@end core/column-addition66
+#@begin core/column-addition67#@desc Create column 2Wednesday at index 37 based on column S2Wed using expression grel:cells['S2Wed'].value.toString()+cells['S2Wed1'].value.toString()+cells['S2Wed2'].value.toString()
+#@param col-name:S2Wed
+#@param newColumnName:"2Wednesday"
+#@in table222
+#@out table223
+#@end core/column-addition67
+#@begin core/column-addition68#@desc Create column 2Tuesday at index 39 based on column S2Tue using expression grel:cells['S2Tue'].value.toString()+cells['S2Tue1'].value.toString()
+#@param col-name:S2Tue
+#@param newColumnName:"2Tuesday"
+#@in table223
+#@out table224
+#@end core/column-addition68
+#@begin core/column-rename17#@desc Rename column S2Mon to 2Monday
+#@param oldColumnName:S2Mon
+#@param newColumnName:2Monday
+#@in table224
+#@out table225
+#@end core/column-rename17
+#@begin core/column-removal7#@desc Remove column S2Sun
+#@param col-name:S2Sun
+#@in table225
+#@out table226
+#@end core/column-removal7
+#@begin core/column-removal8#@desc Remove column S2Sat
+#@param col-name:S2Sat
+#@in table226
+#@out table227
+#@end core/column-removal8
+#@begin core/column-removal9#@desc Remove column S2Fri
+#@param col-name:S2Fri
+#@in table227
+#@out table228
+#@end core/column-removal9
+#@begin core/column-removal10#@desc Remove column S2Thu
+#@param col-name:S2Thu
+#@in table228
+#@out table229
+#@end core/column-removal10
+#@begin core/column-removal11#@desc Remove column S2Wed
+#@param col-name:S2Wed
+#@in table229
+#@out table230
+#@end core/column-removal11
+#@begin core/column-removal12#@desc Remove column S2Tue
+#@param col-name:S2Tue
+#@in table230
+#@out table231
+#@end core/column-removal12
+#@begin core/column-removal13#@desc Remove column Season2Time 1 2
+#@param col-name:Season2Time_1_2
+#@in table231
+#@out table232
+#@end core/column-removal13
+#@begin core/column-removal14#@desc Remove column Season2Time 1 1
+#@param col-name:Season2Time_1_1
+#@in table232
+#@out table233
+#@end core/column-removal14
+#@begin core/column-removal15#@desc Remove column Season2Time 2
+#@param col-name:Season2Time_2
+#@in table233
+#@out table234
+#@end core/column-removal15
+#@begin core/column-removal16#@desc Remove column Season2Time 2 1
+#@param col-name:Season2Time_2_1
+#@in table234
+#@out table235
+#@end core/column-removal16
+#@begin core/column-removal17#@desc Remove column Season2Time 2 2
+#@param col-name:Season2Time_2_2
+#@in table235
+#@out table236
+#@end core/column-removal17
+#@begin core/column-removal18#@desc Remove column S2Sun1
+#@param col-name:S2Sun1
+#@in table236
+#@out table237
+#@end core/column-removal18
+#@begin core/column-removal19#@desc Remove column Season2Time
+#@param col-name:Season2Time
+#@in table237
+#@out table238
+#@end core/column-removal19
+#@begin core/column-split18#@desc Split column Season3Time 1 by separator
+#@param col-name:Season3Time_1
+#@param separator:"[a-z]\:"
+#@param removeOriginalColumn:True
+#@in table238
+#@out table239
+#@end core/column-split18
+#@begin core/column-removal20#@desc Remove column Season3Time
+#@param col-name:Season3Time
+#@in table239
+#@out table240
+#@end core/column-removal20
+#@begin core/column-addition69#@desc Create column S3Sat at index 37 based on column Season3Time 1 2 using expression grel:value
+#@param col-name:Season3Time_1_2
+#@param newColumnName:"S3Sat"
+#@in table240
+#@out table241
+#@end core/column-addition69
+#@begin core/column-addition70#@desc Create column S3Sun at index 37 based on column Season3Time 1 2 using expression grel:value
+#@param col-name:Season3Time_1_2
+#@param newColumnName:"S3Sun"
+#@in table241
+#@out table242
+#@end core/column-addition70
+#@begin core/column-addition71#@desc Create column S3Fri at index 37 based on column Season3Time 1 2 using expression grel:value
+#@param col-name:Season3Time_1_2
+#@param newColumnName:"S3Fri"
+#@in table242
+#@out table243
+#@end core/column-addition71
+#@begin core/column-addition72#@desc Create column S3Thu at index 37 based on column Season3Time 1 2 using expression grel:value
+#@param col-name:Season3Time_1_2
+#@param newColumnName:"S3Thu"
+#@in table243
+#@out table244
+#@end core/column-addition72
+#@begin core/column-addition73#@desc Create column S3Wed at index 37 based on column Season3Time 1 2 using expression grel:value
+#@param col-name:Season3Time_1_2
+#@param newColumnName:"S3Wed"
+#@in table244
+#@out table245
+#@end core/column-addition73
+#@begin core/column-addition74#@desc Create column S3Tue at index 37 based on column Season3Time 1 2 using expression grel:value
+#@param col-name:Season3Time_1_2
+#@param newColumnName:"S3Tue"
+#@in table245
+#@out table246
+#@end core/column-addition74
+#@begin core/column-addition75#@desc Create column S3Mon at index 37 based on column Season3Time 1 2 using expression grel:value
+#@param col-name:Season3Time_1_2
+#@param newColumnName:"S3Mon"
+#@in table246
+#@out table247
+#@end core/column-addition75
+#@begin core/column-removal21#@desc Remove column Season3Time 1 2
+#@param col-name:Season3Time_1_2
+#@in table247
+#@out table248
+#@end core/column-removal21
+#@begin core/column-removal22#@desc Remove column Season3Time 1 1
+#@param col-name:Season3Time_1_1
+#@in table248
+#@out table249
+#@end core/column-removal22
+#@begin core/column-split19#@desc Split column Season3Time 2 by separator
+#@param col-name:Season3Time_2
+#@param separator:"[a-z]\:"
+#@param removeOriginalColumn:True
+#@in table249
+#@out table250
+#@end core/column-split19
+#@begin core/column-addition76#@desc Create column S3Sun1 at index 44 based on column Season3Time 2 2 using expression grel:value
+#@param col-name:Season3Time_2_2
+#@param newColumnName:"S3Sun1"
+#@in table250
+#@out table251
+#@end core/column-addition76
+#@begin core/column-addition77#@desc Create column S3Sat1 at index 44 based on column Season3Time 2 2 using expression grel:value
+#@param col-name:Season3Time_2_2
+#@param newColumnName:"S3Sat1"
+#@in table251
+#@out table252
+#@end core/column-addition77
+#@begin core/column-addition78#@desc Create column S3Thu1 at index 44 based on column Season3Time 2 2 using expression grel:value
+#@param col-name:Season3Time_2_2
+#@param newColumnName:"S3Thu1"
+#@in table252
+#@out table253
+#@end core/column-addition78
+#@begin core/column-addition79#@desc Create column S3Tue1 at index 44 based on column Season3Time 2 2 using expression grel:value
+#@param col-name:Season3Time_2_2
+#@param newColumnName:"S3Tue1"
+#@in table253
+#@out table254
+#@end core/column-addition79
+#@begin core/column-removal23#@desc Remove column Season3Time 2 1
+#@param col-name:Season3Time_2_1
+#@in table254
+#@out table255
+#@end core/column-removal23
+#@begin core/column-removal24#@desc Remove column Season3Time 2 2
+#@param col-name:Season3Time_2_2
+#@in table255
+#@out table256
+#@end core/column-removal24
+#@begin core/column-split20#@desc Split column Season3Time 3 by separator
+#@param col-name:Season3Time_3
+#@param separator:"[a-z]\:"
+#@param removeOriginalColumn:True
+#@in table256
+#@out table257
+#@end core/column-split20
+#@begin core/column-addition80#@desc Create column S3Sun2 at index 48 based on column Season3Time 3 2 using expression grel:value
+#@param col-name:Season3Time_3_2
+#@param newColumnName:"S3Sun2"
+#@in table257
+#@out table258
+#@end core/column-addition80
+#@begin core/column-addition81#@desc Create column S3Sat2 at index 48 based on column Season3Time 3 2 using expression grel:value
+#@param col-name:Season3Time_3_2
+#@param newColumnName:"S3Sat2"
+#@in table258
+#@out table259
+#@end core/column-addition81
+#@begin core/column-addition82#@desc Create column S3Wed1 at index 48 based on column Season3Time 3 2 using expression grel:value
+#@param col-name:Season3Time_3_2
+#@param newColumnName:"S3Wed1"
+#@in table259
+#@out table260
+#@end core/column-addition82
+#@begin core/column-removal25#@desc Remove column Season3Time 3 1
+#@param col-name:Season3Time_3_1
+#@in table260
+#@out table261
+#@end core/column-removal25
+#@begin core/column-removal26#@desc Remove column Season3Time 3 2
+#@param col-name:Season3Time_3_2
+#@in table261
+#@out table262
+#@end core/column-removal26
+#@begin core/column-split21#@desc Split column Season3Time 4 by separator
+#@param col-name:Season3Time_4
+#@param separator:"[a-z]\:"
+#@param removeOriginalColumn:True
+#@in table262
+#@out table263
+#@end core/column-split21
+#@begin core/column-addition83#@desc Create column S3Thu2 at index 51 based on column Season3Time 4 2 using expression grel:value
+#@param col-name:Season3Time_4_2
+#@param newColumnName:"S3Thu2"
+#@in table263
+#@out table264
+#@end core/column-addition83
+#@begin core/column-removal27#@desc Remove column Season3Time 4 1
+#@param col-name:Season3Time_4_1
+#@in table264
+#@out table265
+#@end core/column-removal27
+#@begin core/column-removal28#@desc Remove column Season3Time 4 2
+#@param col-name:Season3Time_4_2
+#@in table265
+#@out table266
+#@end core/column-removal28
+#@begin core/column-split22#@desc Split column Season3Time 5 by separator
+#@param col-name:Season3Time_5
+#@param separator:"[a-z]\:"
+#@param removeOriginalColumn:True
+#@in table266
+#@out table267
+#@end core/column-split22
+#@begin core/column-addition84#@desc Create column S3Fri1 at index 52 based on column Season3Time 5 2 using expression grel:value
+#@param col-name:Season3Time_5_2
+#@param newColumnName:"S3Fri1"
+#@in table267
+#@out table268
+#@end core/column-addition84
+#@begin core/column-removal29#@desc Remove column Season3Time 5 2
+#@param col-name:Season3Time_5_2
+#@in table268
+#@out table269
+#@end core/column-removal29
+#@begin core/column-removal30#@desc Remove column Season3Time 5 1
+#@param col-name:Season3Time_5_1
+#@in table269
+#@out table270
+#@end core/column-removal30
+#@begin core/column-split23#@desc Split column Season3Time 6 by separator
+#@param col-name:Season3Time_6
+#@param separator:"[a-z]\:"
+#@param removeOriginalColumn:True
+#@in table270
+#@out table271
+#@end core/column-split23
+#@begin core/column-addition85#@desc Create column S3Sat3 at index 53 based on column Season3Time 6 2 using expression grel:value
+#@param col-name:Season3Time_6_2
+#@param newColumnName:"S3Sat3"
+#@in table271
+#@out table272
+#@end core/column-addition85
+#@begin core/column-removal31#@desc Remove column Season3Time 6 1
+#@param col-name:Season3Time_6_1
+#@in table272
+#@out table273
+#@end core/column-removal31
+#@begin core/column-removal32#@desc Remove column Season3Time 6 2
+#@param col-name:Season3Time_6_2
+#@in table273
+#@out table274
+#@end core/column-removal32
+#@begin core/column-rename18#@desc Rename column S3Mon to 3Monday
+#@param oldColumnName:S3Mon
+#@param newColumnName:3Monday
+#@in table274
+#@out table275
+#@end core/column-rename18
+#@begin core/column-addition86#@desc Create column 3Tuesday at index 37 based on column S3Tue using expression grel:cells['S3Tue'].value.toString()+cells['S3Tue1'].value.toString()
+#@param col-name:S3Tue
+#@param newColumnName:"3Tuesday"
+#@in table275
+#@out table276
+#@end core/column-addition86
+#@begin core/column-removal33#@desc Remove column S3Tue
+#@param col-name:S3Tue
+#@in table276
+#@out table277
+#@end core/column-removal33
+#@begin core/column-removal34#@desc Remove column S3Tue1
+#@param col-name:S3Tue1
+#@in table277
+#@out table278
+#@end core/column-removal34
+#@begin core/column-addition87#@desc Create column 3Wednesday at index 38 based on column S3Wed using expression grel:cells['S3Wed'].value.toString()+cells['S3Wed1'].value.toString()
+#@param col-name:S3Wed
+#@param newColumnName:"3Wednesday"
+#@in table278
+#@out table279
+#@end core/column-addition87
+#@begin core/column-removal35#@desc Remove column S3Wed
+#@param col-name:S3Wed
+#@in table279
+#@out table280
+#@end core/column-removal35
+#@begin core/column-removal36#@desc Remove column S3Wed1
+#@param col-name:S3Wed1
+#@in table280
+#@out table281
+#@end core/column-removal36
+#@begin core/column-addition88#@desc Create column 3Thursday at index 39 based on column S3Thu using expression grel:cells['S3Thu'].value.toString()+cells['S3Thu1'].value.toString()+cells['S3Thu2'].value.toString()
+#@param col-name:S3Thu
+#@param newColumnName:"3Thursday"
+#@in table281
+#@out table282
+#@end core/column-addition88
+#@begin core/column-removal37#@desc Remove column S3Thu
+#@param col-name:S3Thu
+#@in table282
+#@out table283
+#@end core/column-removal37
+#@begin core/column-removal38#@desc Remove column S3Thu1
+#@param col-name:S3Thu1
+#@in table283
+#@out table284
+#@end core/column-removal38
+#@begin core/column-addition89#@desc Create column 3Friday at index 40 based on column S3Fri using expression grel:cells['S3Fri'].value.toString()+cells['S3Fri1'].value.toString()
+#@param col-name:S3Fri
+#@param newColumnName:"3Friday"
+#@in table284
+#@out table285
+#@end core/column-addition89
+#@begin core/column-removal39#@desc Remove column S3Fri
+#@param col-name:S3Fri
+#@in table285
+#@out table286
+#@end core/column-removal39
+#@begin core/column-removal40#@desc Remove column S3Fri1
+#@param col-name:S3Fri1
+#@in table286
+#@out table287
+#@end core/column-removal40
+#@begin core/column-addition90#@desc Create column 3Sunday at index 41 based on column S3Sun using expression grel:cells['S3Sun'].value.toString()+cells['S3Sun1'].value.toString()+cells['S3Sun2'].value.toString()
+#@param col-name:S3Sun
+#@param newColumnName:"3Sunday"
+#@in table287
+#@out table288
+#@end core/column-addition90
+#@begin core/column-removal41#@desc Remove column S3Sun
+#@param col-name:S3Sun
+#@in table288
+#@out table289
+#@end core/column-removal41
+#@begin core/column-removal42#@desc Remove column S3Sun1
+#@param col-name:S3Sun1
+#@in table289
+#@out table290
+#@end core/column-removal42
+#@begin core/column-removal43#@desc Remove column S3Sun2
+#@param col-name:S3Sun2
+#@in table290
+#@out table291
+#@end core/column-removal43
+#@begin core/column-addition91#@desc Create column 3Saturday at index 42 based on column S3Sat using expression grel:cells['S3Sat'].value.toString()+cells['S3Sat1'].value.toString()+cells['S3Sat2'].value.toString()+cells['S3Sat3'].value.toString()
+#@param col-name:S3Sat
+#@param newColumnName:"3Saturday"
+#@in table291
+#@out table292
+#@end core/column-addition91
+#@begin core/column-split24#@desc Split column Season4Time 1 by separator
+#@param col-name:Season4Time_1
+#@param separator:"[a-z]\:"
+#@param removeOriginalColumn:True
+#@in table292
+#@out table293
+#@end core/column-split24
+#@begin core/column-split25#@desc Split column Season4Time 2 by separator
+#@param col-name:Season4Time_2
+#@param separator:"[a-z]\:"
+#@param removeOriginalColumn:True
+#@in table293
+#@out table294
+#@end core/column-split25
+#@begin core/column-addition92#@desc Create column S4Sat at index 48 based on column Season4Time 2 2 using expression grel:value
+#@param col-name:Season4Time_2_2
+#@param newColumnName:"S4Sat"
+#@in table294
+#@out table295
+#@end core/column-addition92
+#@begin core/column-addition93#@desc Create column S4Sat1 at index 46 based on column Season4Time 1 2 using expression grel:value
+#@param col-name:Season4Time_1_2
+#@param newColumnName:"S4Sat1"
+#@in table295
+#@out table296
+#@end core/column-addition93
+#@begin core/column-addition94#@desc Create column S4Thu at index 46 based on column Season4Time 1 2 using expression grel:value
+#@param col-name:Season4Time_1_2
+#@param newColumnName:"S4Thu"
+#@in table296
+#@out table297
+#@end core/column-addition94
+#@begin core/column-addition95#@desc Create column S4Wed at index 46 based on column Season4Time 1 2 using expression grel:value
+#@param col-name:Season4Time_1_2
+#@param newColumnName:"S4Wed"
+#@in table297
+#@out table298
+#@end core/column-addition95
+#@begin core/column-removal44#@desc Remove column Season4Time 1 1
+#@param col-name:Season4Time_1_1
+#@in table298
+#@out table299
+#@end core/column-removal44
+#@begin core/column-removal45#@desc Remove column Season4Time 1 2
+#@param col-name:Season4Time_1_2
+#@in table299
+#@out table300
+#@end core/column-removal45
+#@begin core/column-rename19#@desc Rename column S4Wed to 4Wednesday
+#@param oldColumnName:S4Wed
+#@param newColumnName:4Wednesday
+#@in table300
+#@out table301
+#@end core/column-rename19
+#@begin core/column-rename20#@desc Rename column S4Thu to 4Thursday
+#@param oldColumnName:S4Thu
+#@param newColumnName:4Thursday
+#@in table301
+#@out table302
+#@end core/column-rename20
+#@begin core/column-addition96#@desc Create column 4Saturday at index 47 based on column S4Sat1 using expression grel:cells['S4Sat'].value.toString()+cells['S4Sat1'].value.toString()
+#@param col-name:S4Sat1
+#@param newColumnName:"4Saturday"
+#@in table302
+#@out table303
+#@end core/column-addition96
+#@begin core/column-removal46#@desc Remove column S4Sat
+#@param col-name:S4Sat
+#@in table303
+#@out table304
+#@end core/column-removal46
+#@begin core/column-removal47#@desc Remove column S4Sat1
+#@param col-name:S4Sat1
+#@in table304
+#@out table305
+#@end core/column-removal47
+#@begin core/text-transform33#@desc Text transform on cells in column Season4Date using expression value.toDate()
+#@param col-name:Season4Date
+#@param expression:value.toDate()
+#@in table305
+#@out table306
+#@end core/text-transform33
+#@begin core/text-transform34#@desc Text transform on cells in column Season4Date using expression value.trim()
+#@param col-name:Season4Date
+#@param expression:value.trim()
+#@in table306
+#@out table307
+#@end core/text-transform34
+#@begin core/text-transform35#@desc Text transform on cells in column Season4Date using expression value.toDate()
+#@param col-name:Season4Date
+#@param expression:value.toDate()
+#@in table307
+#@out table308
+#@end core/text-transform35
+#@begin core/column-split26#@desc Split column Season4Date by separator
+#@param col-name:Season4Date
+#@param separator:"to"
+#@param removeOriginalColumn:False
+#@in table308
+#@out table309
+#@end core/column-split26
+#@begin core/column-rename21#@desc Rename column Season4Date 1 to Season4StartDate
+#@param oldColumnName:Season4Date_1
+#@param newColumnName:Season4StartDate
+#@in table309
+#@out table310
+#@end core/column-rename21
+#@begin core/column-rename22#@desc Rename column Season4Date 2 to Season4EndDate
+#@param oldColumnName:Season4Date_2
+#@param newColumnName:Season4EndDate
+#@in table310
+#@out table311
+#@end core/column-rename22
+#@begin core/text-transform36#@desc Text transform on cells in column Season4StartDate using expression value.trim()
+#@param col-name:Season4StartDate
+#@param expression:value.trim()
+#@in table311
+#@out table312
+#@end core/text-transform36
+#@begin core/text-transform37#@desc Text transform on cells in column Season4EndDate using expression value.trim()
+#@param col-name:Season4EndDate
+#@param expression:value.trim()
+#@in table312
+#@out table313
+#@end core/text-transform37
+#@begin core/text-transform38#@desc Text transform on cells in column Season4StartDate using expression value.toDate()
+#@param col-name:Season4StartDate
+#@param expression:value.toDate()
+#@in table313
+#@out table314
+#@end core/text-transform38
+#@begin core/text-transform39#@desc Text transform on cells in column Season4EndDate using expression value.toDate()
+#@param col-name:Season4EndDate
+#@param expression:value.toDate()
+#@in table314
+#@out table315
+#@end core/text-transform39
+#@begin core/column-removal48#@desc Remove column Season4Time 2 1
+#@param col-name:Season4Time_2_1
+#@in table315
+#@out table316
+#@end core/column-removal48
+#@begin core/column-removal49#@desc Remove column Season4Time 2 2
+#@param col-name:Season4Time_2_2
+#@in table316
+#@out table317
+#@end core/column-removal49
+#@begin core/column-removal50#@desc Remove column Season4Time
+#@param col-name:Season4Time
+#@in table317
+#@out table318
+#@end core/column-removal50
+#@end Linear_OR
